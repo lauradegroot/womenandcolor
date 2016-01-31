@@ -1,0 +1,76 @@
+
+//- --------------------------------------------------------
+//- Main
+//- --------------------------------------------------------
+
+.wrapper
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../images/background.jpg);
+  background-size: cover;
+  overflow: scroll;
+
+.text
+  max-width: 600px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  top: 50%;
+  transform: translateY(-50%)
+
+h1
+  font-size: 72px;
+  margin: 0;
+  line-height: 60px;
+
+h2
+  font-size: 36px;
+
+p
+  font-size: 24px;
+
+a
+  color: #ffffff;
+  text-decoration: none;
+
+
+.cta
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 20px 40px;
+  display: inline-block;
+  font-size: 24px;
+
+.follow
+  font-size: 18px;
+  color: #9FA7DC;
+  margin-top: 80px;
+  a
+    color: #9FA7DC;
+
+
+ @media only screen and (max-width: 700px)
+  .text
+    max-width: 320px;
+
+  h1
+    font-size: 36px;
+    line-height: 36px;
+
+  h2
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+
+  p
+    font-size: 12px;
+    margin: 0 0 25px 0;
+
+  .cta
+    padding: 20px 40px;
+    font-size: 14px;
+
+  .follow
+    font-size: 12px;
+    margin-top: 30px;
