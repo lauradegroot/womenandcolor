@@ -20,7 +20,8 @@
   color: #ffffff;
   top: 50%;
   transform: translateY(-50%);
-  font-family: "neuzeit-grotesk";
+  padding: 0 20px;
+  font-family: "neuzeit-grotesk", sans-serif;
 
 h1
   font-size: 72px;
@@ -29,9 +30,14 @@ h1
 
 h2
   font-size: 36px;
+  font-weight: 100;
+  line-height: 39px;
 
 p
   font-size: 24px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #C5CAE9;
 
 a
   color: #ffffff;
@@ -44,13 +50,23 @@ a
   padding: 20px 40px;
   display: inline-block;
   font-size: 24px;
+  font-weight: 100;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  background-color: rgba(0, 0, 0, 0);
+  &:hover
+    background-color: rgba(0, 0, 0, 0.5);
 
 .follow
   font-size: 18px;
   color: #9FA7DC;
   margin-top: 80px;
+  &:hover
+    color: #c5cae9;
   a
     color: #9FA7DC;
+    &:hover
+      color: #c5cae9;
 
 
  @media only screen and (max-width: 700px)
@@ -58,19 +74,21 @@ a
     min-height: 400px;
 
   .text
-    max-width: 320px;
+    max-width: 350px;
 
   h1
     font-size: 36px;
     line-height: 36px;
 
   h2
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px 0 40px 0;
+    line-height: 25px;
 
   p
-    font-size: 12px;
+    font-size: 14px;
     margin: 0 0 25px 0;
+    line-height: 19px;
 
   .cta
     padding: 20px 40px;
